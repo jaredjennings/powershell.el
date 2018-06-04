@@ -729,7 +729,8 @@ Where <fcn-name> is the name of the function to which <helper string> applies.
 
 (when (require 'speedbar nil t)
   (declare-function speedbar-add-supported-extension "speedbar")
-  (speedbar-add-supported-extension ".ps1?"))
+  (speedbar-add-supported-extension ".ps1?")
+  (speedbar-add-supported-extension ".psm1?"))
 
 ;; A better command would be something like "powershell.exe -NoLogo
 ;; -NonInteractive -Command & (buffer-file-name)". But it will just
